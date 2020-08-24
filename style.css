@@ -4,14 +4,23 @@ html,
 body {
   height: 100%;
   width: 100%;
-  font-family: "Poppins", sans-serif;
-  color: #222;
+  font-family: "Fira Sans", "Poppins", sans-serif;
+  color: #d5d5d5;
+  background-color: #171717;
 }
 .navbar {
-  padding: 0.3rem;
+  padding: 5px;
+  background-color: #171717;
 }
 .navbar-nav li {
-  padding: 25px;
+  padding-top: 5px;
+  padding-bottom: 1px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+.navbar-nav li a {
+  color: #d5d5d5 !important;
+  font-weight: bolder;
 }
 .nav-link {
   font-size: 1.2em !important;
@@ -78,13 +87,18 @@ body {
 }
 footer {
   background-color: #3f3f3f;
-  color: #d5d5d5;
+
   padding-top: 2rem;
+}
+hr {
+  border-top: 5px solid #d5d5d5;
+  width: 75%;
 }
 hr.light {
   border-top: 1px solid #d5d5d5;
   width: 75%;
 }
+
 /*---Media Queries --*/
 @media (max-width: 992px) {
   .social a {
