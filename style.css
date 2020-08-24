@@ -6,7 +6,7 @@ body {
   width: 100%;
   font-family: "Fira Sans", "Poppins", sans-serif;
   color: #d5d5d5;
-  background-color: #171717;
+  background-color: #171717 !important;
 }
 .navbar {
   padding: 5px;
