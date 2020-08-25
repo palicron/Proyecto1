@@ -26,10 +26,9 @@ body {
   color: #d5d5d5 !important;
   font-weight: bolder;
 }
-
-.navbar-brand p {
-  color: red;
-  align-content: center;
+.navbar li a:hover {
+  font-weight: bolder;
+  background-color: #868674;
 }
 .nav-link {
   font-size: 1.2em !important;
@@ -46,7 +45,7 @@ body {
 }
 .carousel-caption {
   position: absolute;
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%);
 }
 .carousel-caption h1 {
@@ -74,9 +73,6 @@ body {
 }
 .padding {
   padding-bottom: 2rem;
-}
-.paddingIntro {
-  padding: 0.1rem;
 }
 
 .paddingIntro h1 {
