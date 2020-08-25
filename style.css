@@ -125,6 +125,15 @@ hr.light {
 @media (max-width: 768px) {
 }
 @media (max-width: 576px) {
+  .carousel-caption h1 {
+    font-size: 150%;
+    text-transform: uppercase;
+  }
+  .carousel-caption h3 {
+    font-size: 100%;
+    font-weight: 350;
+    padding-bottom: 0.5rem;
+  }
 }
 
 .carousel-inner > .item > img {
