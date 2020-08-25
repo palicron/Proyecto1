@@ -38,6 +38,12 @@ body {
   height: 100%;
   width: 100%;
 }
+#Academic li a {
+  font-size: small;
+}
+#Worklist li a {
+  font-size: small;
+}
 .carousel-inner img {
   width: 100%;
   height: 100%;
@@ -47,6 +53,15 @@ body {
   position: absolute;
   top: 40%;
   transform: translateY(-50%);
+}
+#icon {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+}
+#iconContainer h4 {
+  font-size: 100%;
+  font-weight: bold;
 }
 .carousel-caption h1 {
   font-size: 500%;
