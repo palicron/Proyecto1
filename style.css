@@ -4,14 +4,15 @@ body {
   height: 100%;
   width: 100%;
   background-color: #171717;
-  font-family: "Satisfy", "Fira Sans", "Poppins", sans-serif;
-  color: #d5d5d5;
+  font-family: "Fira Sans", "Poppins", sans-serif;
+  color: #b6b6b6;
+  font-style: normal;
 }
 .navbar {
   padding: 1px;
   background-color: #262621;
-  border-top: solid 0.5px #d5d5d5;
-  border-bottom: solid 0.5px #d5d5d5;
+  border-top: solid 0.5px #b6b6b6;
+  border-bottom: solid 0.5px #b6b6b6;
 }
 .container-fluid {
   align-content: center;
@@ -23,7 +24,7 @@ body {
   padding-left: 25px;
 }
 .navbar-nav li a {
-  color: #d5d5d5 !important;
+  color: #b6b6b6 !important;
   font-weight: bolder;
 }
 .navbar li a:hover {
@@ -34,33 +35,13 @@ body {
   font-size: 1.2em !important;
 }
 
-.carousel-inner {
-  height: 100%;
-  width: 100%;
-  margin: auto;
-}
 #Academic li a {
   font-size: small;
 }
 #Worklist li a {
   font-size: small;
 }
-.carousel-inner img {
-  width: 100%;
-  height: 100%;
-  margin: auto;
-}
-.carousel-inner {
-  height: 100%;
-  width: 100%;
-  align-content: stretch;
-  margin: auto;
-}
-.carousel-caption {
-  position: absolute;
-  top: 40%;
-  transform: translateY(-50%);
-}
+
 #icon {
   height: 100px;
   width: 100px;
@@ -70,15 +51,7 @@ body {
   font-size: 100%;
   font-weight: bold;
 }
-.carousel-caption h1 {
-  font-size: 500%;
-  text-transform: uppercase;
-}
-.carousel-caption h3 {
-  font-size: 200%;
-  font-weight: 500;
-  padding-bottom: 1rem;
-}
+
 .btn-primary {
   background-color: #4a84f1;
   border: 1px solid #0b59e9;
@@ -88,12 +61,7 @@ body {
   background-color: rgb(226, 186, 184);
   border: 1px solid maroon;
 }
-.jumbotron {
-  padding: 1rem;
-  border-radius: 0%;
-  text-align: center;
-  background-color: #262621;
-}
+
 .padding {
   padding-bottom: 2rem;
 }
@@ -145,28 +113,115 @@ hr.light {
   border-top: 1px solid #d5d5d5;
   width: 75%;
 }
-
-/*---Media Queries --*/
-@media (max-width: 992px) {
+/*----------------*/
+/*Carousel*/
+.carousel-inner {
+  height: 100%;
+  width: 100%;
+  margin: auto;
 }
-@media (max-width: 768px) {
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+  margin: auto;
 }
-@media (max-width: 576px) {
-  .carousel-caption h1 {
-    font-size: 150%;
-    text-transform: uppercase;
-  }
-  .carousel-caption h3 {
-    font-size: 100%;
-    font-weight: 350;
-    padding-bottom: 0.5rem;
-  }
+.carousel-inner {
+  height: 100%;
+  width: 100%;
+  align-content: stretch;
+  margin: auto;
 }
-
 .carousel-inner > .item > img {
   margin: auto;
   width: 100%;
 }
+/*banner*/
+#Banner {
+  height: 100%;
+  width: 100%;
+}
+#Banner .carousel-caption h1 {
+  font-size: 500%;
+  text-transform: uppercase;
+}
+
+#Banner .carousel-caption h3 {
+  font-size: 200%;
+  font-weight: bolder;
+  padding-bottom: 1rem;
+}
+#Banner .carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/*Jumbotron*/
+.jumbotron {
+  padding-top: 10px;
+  padding-bottom: 8px;
+
+  background-color: #313131;
+  border-bottom: solid 0.5px #b6b6b6;
+}
+.jumbotron p {
+  text-align: center;
+  font-size: 120%;
+  font-weight: bold;
+}
+/*---Media Queries --*/
+@media (max-width: 992px) {
+  #Banner .carousel-caption h1 {
+    font-size: 400%;
+    text-transform: uppercase;
+  }
+  #Banner .carousel-caption h3 {
+    font-size: 140%;
+    font-weight: bolder;
+    padding-bottom: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  #Banner .carousel-caption h1 {
+    font-size: 300%;
+    text-transform: uppercase;
+  }
+  .jumbotron {
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    background-color: #313131;
+    border-bottom: solid 0.5px #b6b6b6;
+  }
+  .jumbotron p {
+    text-align: center;
+    font-size: 95%;
+    font-weight: bolder;
+  }
+}
+@media (max-width: 576px) {
+  #Banner .carousel-caption h1 {
+    font-size: 220%;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  #Banner .carousel-caption h3 {
+    font-size: 110%;
+    font-weight: bolder;
+    padding-bottom: 1rem;
+  }
+  .jumbotron {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #313131;
+    border-bottom: solid 0.4px #b6b6b6;
+  }
+  .jumbotron p {
+    text-align: center;
+    font-size: 90%;
+    font-weight: bolder;
+  }
+}
+
 #SpaceDefender {
   height: 100%;
   width: 100%;
