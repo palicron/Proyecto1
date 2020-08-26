@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
-
 html,
 body {
   height: 100%;
@@ -8,7 +7,6 @@ body {
   font-family: "Fira Sans", "Poppins", sans-serif;
   color: #d5d5d5;
 }
-
 .navbar {
   padding: 1px;
   background-color: #262621;
@@ -39,6 +37,7 @@ body {
 .carousel-inner {
   height: 100%;
   width: 100%;
+  margin: auto;
 }
 #Academic li a {
   font-size: small;
@@ -48,8 +47,14 @@ body {
 }
 .carousel-inner img {
   width: 100%;
-  height: 90%;
-  border-image-width: 1200px;
+  height: 100%;
+  margin: auto;
+}
+.carousel-inner {
+  height: 100%;
+  width: 100%;
+  align-content: stretch;
+  margin: auto;
 }
 .carousel-caption {
   position: absolute;
@@ -155,11 +160,8 @@ hr.light {
 }
 
 .carousel-inner > .item > img {
-  margin: fit-content;
-  width: 0%;
-  height: fit-content;
-
-  aspect-ratio: unset;
+  margin: auto;
+  width: 100%;
 }
 
 /*
