@@ -163,7 +163,10 @@ hr.light {
   margin: auto;
   width: 100%;
 }
-
+#SpaceDefender {
+  height: 100%;
+  width: 100%;
+}
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
