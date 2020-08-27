@@ -33,6 +33,11 @@ body {
   padding: 30px;
   color: #467ee6;
 }
+.social a:hover {
+  font-size: 200%;
+  padding: 30px;
+  color: #ffffff;
+}
 
 /*----------------*/
 a {
@@ -197,6 +202,24 @@ footer {
     font-size: 140%;
     font-weight: bolder;
     padding-bottom: 1rem;
+  }
+  .ParrafoNormal {
+    font-size: 110%;
+    text-align: justify;
+  }
+  .card-title {
+    font-size: small;
+    font-weight: bolder;
+  }
+  .H1Section {
+    text-align: center;
+    font-size: 200%;
+    font-weight: bolder;
+  }
+  .SubTitulo {
+    text-align: center;
+    font-size: 150%;
+    font-weight: bolder;
   }
 }
 @media (max-width: 768px) {
