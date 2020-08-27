@@ -239,10 +239,28 @@ footer {
     font-size: 90%;
     font-weight: bolder;
   }
+  .ParrafoNormal {
+    font-size: 100%;
+    text-align: justify;
+  }
+  .card-title {
+    font-size: small;
+    font-weight: bolder;
+  }
+  .H1Section {
+    text-align: center;
+    font-size: 150%;
+    font-weight: bolder;
+  }
+  .SubTitulo {
+    text-align: center;
+    font-size: 120%;
+    font-weight: bolder;
+  }
 }
 
 /**xs*/
-/ @media (max-width: 576px) {
+@media (max-width: 576px) {
   #Banner .carousel-caption h1 {
     font-size: 120%;
     text-transform: uppercase;
