@@ -21,7 +21,7 @@ body {
 #icon {
   height: 100px;
   width: 100px;
-  padding: 10px;
+  padding: 20px;
 }
 #iconContainer h4 {
   font-size: 100%;
@@ -87,11 +87,19 @@ hr.light {
   text-align: left;
 }
 .Card {
-  border: 1px solid #6d6d6d;
+  height: fit-content;
+  width: 90%;
+  border: 3px solid #6d6d6d;
+  border-radius: 50px;
 }
 .card-title {
   font-size: medium;
   font-weight: bold;
+}
+.card-img-top {
+  width: fit-content;
+  height: 80%;
+  width: fit-content;
 }
 /*Carousel*/
 .carousel-inner {
@@ -257,12 +265,6 @@ footer {
     font-size: 120%;
     font-weight: bolder;
   }
-  .Warper {
-    height: 10%;
-    width: 50%;
-    align-content: center;
-    text-align: center;
-  }
 }
 
 /**xs*/
@@ -315,6 +317,15 @@ footer {
   }
   body {
     width: 130%;
+  }
+  #iconContainer h4 {
+    font-size: 90%;
+    font-weight: bold;
+  }
+  #icon {
+    height: 80px;
+    width: 80px;
+    padding: 20px;
   }
 }
 
