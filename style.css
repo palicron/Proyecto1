@@ -257,17 +257,23 @@ footer {
     font-size: 120%;
     font-weight: bolder;
   }
+  .Warper {
+    height: 10%;
+    width: 50%;
+    align-content: center;
+    text-align: center;
+  }
 }
 
 /**xs*/
 @media (max-width: 576px) {
   #Banner .carousel-caption h1 {
-    font-size: 120%;
+    font-size: 130%;
     text-transform: uppercase;
     font-weight: bold;
   }
   #Banner .carousel-caption h3 {
-    font-size: 65%;
+    font-size: 85%;
     font-weight: bolder;
     padding-bottom: 1rem;
   }
@@ -279,16 +285,39 @@ footer {
   }
   .jumbotron p {
     text-align: center;
-    font-size: 65%;
+    font-size: 70%;
     font-weight: bolder;
     margin: auto;
   }
+  .Warper {
+    height: 10%;
+    width: 60%;
+    align-content: center;
+    text-align: center;
+  }
+  .ParrafoNormal {
+    font-size: 90%;
+    text-align: justify;
+  }
+  .card-title {
+    font-size: smaller;
+    font-weight: bolder;
+  }
+  .H1Section {
+    text-align: center;
+    font-size: 120%;
+    font-weight: bolder;
+  }
+  .SubTitulo {
+    text-align: center;
+    font-size: 100%;
+    font-weight: bolder;
+  }
+  body {
+    width: 130%;
+  }
 }
 
-#SpaceDefender {
-  height: 100%;
-  width: 100%;
-}
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
